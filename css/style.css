@@ -48,3 +48,17 @@ button {
   font-family: 'Courier New', Courier, monospace;
   border-radius: 10px 
 }
+
+@media (max-width: 767px) {
+  form {
+    width: fit-content;
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 752px) {
+  form {
+    width: fit-content;
+    min-width: 90%;
+  }
+}
