@@ -1,0 +1,32 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+} 
+
+header {
+  text-align: center;
+  color: rgb(252, 54, 54);
+  font-size: x-large;
+  font-style: italic;
+  font-weight: bold;
+}
+
+form {
+  margin: auto;
+  width: 100%;
+  max-width: 620px;
+  padding: 1rem;
+  border: 2px solid #ec4f4f;
+  border-radius: 5px;
+  color: rgb(234, 118, 118);
+  font-weight: bold;
+}
+
+input, .dob {
+  padding: 0.5rem;
+  border: 1.2px solid #ff0000;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  box-sizing: border-box;
+  
+}
