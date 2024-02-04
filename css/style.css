@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  width: 100%;  
 } 
 
 header {
@@ -13,12 +14,21 @@ header {
 form {
   margin: auto;
   width: 100%;
-  max-width: 620px;
+  max-width: 920px;
   padding: 1rem;
   border: 2px solid #ec4f4f;
   border-radius: 5px;
   color: rgb(234, 118, 118);
   font-weight: bold;
+}
+
+select {
+  max-width: 920px;
+  margin: auto;
+  width: 100%;
+  max-width: 200px;
+  padding: 1rem;
+  color: rgb(234, 118, 118);
 }
 
 input, .dob {
@@ -28,5 +38,13 @@ input, .dob {
   margin-bottom: 1rem;
   font-size: 16px;
   box-sizing: border-box;
-  
+}
+
+button {
+  width: 38%;
+  display: block;
+  margin: auto;
+  background-color: #ec4f4f;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px 
 }
